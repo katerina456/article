@@ -1,0 +1,40 @@
+@media screen and (max-width: 366px) {
+    .article {
+        max-width: 288px;
+        padding: 24px;
+    }
+
+    .header {
+        margin-bottom: 40px;
+    }
+
+    .header-title {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+
+    .header-h1 {
+        margin-bottom: 12px;
+    }
+
+    .main {
+        gap: 36px;
+    }
+
+    .section {
+        .section-title {
+            margin-bottom: 16px;
+        }
+    }
+
+    .footer {
+        flex-direction: column;
+        p {
+            margin-bottom: 8px;
+        }
+    }
+
+    
+
+}
